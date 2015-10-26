@@ -4,8 +4,8 @@
     by Manuel Watter, Jost Tobias Springenberg, Joschka Boedecker, Martin Riedmiller
     http://arxiv.org/abs/1506.07365
 
-    John-Alexander M. Assael (www.johnassael.com)
-    Implementation copyright (C) 2015
+    John-Alexander M. Assael (iassael@gmail.com) and Marc P. Deisenroth.
+    Impementation Copyright (c) 2015, All rights reserved.
 
     The MIT License (MIT)
 

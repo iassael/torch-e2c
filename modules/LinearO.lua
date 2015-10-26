@@ -1,11 +1,10 @@
 --[[
+    Torch Linear Unit with Orthogonal Weight Initialization
 
-    Embed to Control: A Locally Linear Latent Dynamics Model for Control from Raw Images
-    by Manuel Watter, Jost Tobias Springenberg, Joschka Boedecker, Martin Riedmiller
-    http://arxiv.org/abs/1506.07365
+    Exact solutions to the nonlinear dynamics of learning in deep linear neural networks
+    http://arxiv.org/abs/1312.6120
 
-    John-Alexander M. Assael (iassael@gmail.com) & Marc P. Deisenroth.
-    Impementation Copyright (c) 2015, All rights reserved.
+    Copyright (C) 2015 John-Alexander M. Assael (www.johnassael.com)
 
     The MIT License (MIT)
 
