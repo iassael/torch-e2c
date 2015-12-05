@@ -50,7 +50,9 @@ function KLDistCriterion:updateOutput(input, target)
     -- dqv = q.sigma:clone():prod()
 
     -- Inverses of diagonal covariances pv, qv
-    iqv = torch.ones(ndim):cdiv(q.sigma)
+    iqv = transfer_data( torch.ones(ndim) )
+    iqv = iqv:cdiv(q.sigma)
+
     -- ipv = torch.ones(ndim):cdiv(p.sigma)
 
     -- Difference between means pm, qm
